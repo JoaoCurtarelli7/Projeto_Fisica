@@ -18,7 +18,7 @@
   <th>E-Mail</th>
   <th>Contato</th>
   <th>Responsável do Aluno</th>
-  <th>Ações</th>
+  <th>Açõe</th>
 </tr>
 
   @foreach($responsavel as $item)
