@@ -13,8 +13,17 @@
         <option value="{{$item->id}}"><?php echo $item->nome ?></option>
         @endforeach
       </select><br>
+
       <label>Turno</label><br>
       <input class="form-control" type="text" name="turno" required><br>
+
+      <label>Professor</label><br>
+      <select class="form-control" name="prof_id">
+        @foreach($professores as $item)
+        <option value="{{$item->id}}"><?php echo $item->nome ?></option>
+        @endforeach
+      </select>
+
       <label>Série</label><br>
       <input class="form-control" type="text" name="serie" required><br>
       <input type="submit" class="btn btn-primary" value="Salvar">
