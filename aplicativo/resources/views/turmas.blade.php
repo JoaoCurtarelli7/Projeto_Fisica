@@ -4,13 +4,13 @@
 
 
 @section('cabecalho')
-  <h3 class="h3">Turmas Cadastradas:</h3>
+  <h3 class="h3">Turmas Cadastradas</h3><br>
   <a class="btn btn-outline-primary" href="{{ action('TurmaController@cadastrar') }}">Cadastrar Turma</a>
 @stop
 
 
 @section('listagem')
-<table class='table'>
+<br><table class='table'>
 <tr>
   <th>Curso</th>
   <th>Nome</th>
