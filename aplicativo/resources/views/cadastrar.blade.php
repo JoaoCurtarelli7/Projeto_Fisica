@@ -26,6 +26,7 @@
     </div>
     <div class="container mt-4">
 
+
       @yield('form')
   </div>
       </div>

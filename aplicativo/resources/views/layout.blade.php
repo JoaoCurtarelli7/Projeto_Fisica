@@ -20,13 +20,11 @@
       <a class="nav-link  text-white" href="{{ url('/cursos')}}">Cursos</a>
           </li>
           <li class="navbar-item active">
-            <a class="nav-link  text-white" href="{{ url('/responsavel')}}">Responsaveis</a>
+            <a class="nav-link  text-white" href="{{ url('/responsavel')}}">Responsavel</a>
                 </li>
-
           <li class="navbar-item active">
       <a class="nav-link  text-white" href="{{ url()->previous() }}">Voltar</a>
           </li>
-
         </ul>
     </nav>
     </div>
@@ -41,7 +39,7 @@
       </div>
 
       <div class="">
-        <b>&copy;2021</b>
+        <b>&copy;2020</b>
       </div>
     </div>
         </div>

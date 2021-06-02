@@ -15,7 +15,6 @@
   <th>Curso</th>
   <th>Nome</th>
   <th>Turno</th>
-  <th>Professor</th>
   <th>Série</th>
   <th>Ações</th>
 </tr>
@@ -25,7 +24,6 @@
     <td>{{$item->curso}}</td>
     <td>{{$item->nome}}</td>
     <td>{{$item->turno}}</td>
-    <td>{{$item->professor->nome}}</td>
     <td>{{$item->serie}}</td>
     <td>
       <a class="btn btn-primary btn-sm" href="{{ action('TurmaController@editar', $item->id) }}">Editar</a>
